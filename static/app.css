@@ -1,0 +1,31 @@
+/*resetting any to all elements*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+form {
+  width: fit-content;
+  margin: 50px auto;
+}
+form input {
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+form button {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
